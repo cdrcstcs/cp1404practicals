@@ -13,18 +13,18 @@ class Guitar:
         self.year = year
         self.cost = cost
 
-    # def __str__(self):
-    #     """Return string about guitar"""
-    #     return f"{self.name} ({self.year} : ${self.cost})"
+    def __str__(self):
+        """Return string about guitar"""
+        return f"{self.name} ({self.year} : ${self.cost})"
 
-    # def __lt__(self, other):
-    #     """Return less than value"""
-    #     return self.year < other.year
+    def __lt__(self, other):
+        """Return less than value"""
+        return self.year < other.year
 
-    # def get_age(self):
-    #     """Calculate age of the guitar"""
-    #     return CURRENT_YEAR - self.year
+    def get_age(self):
+        """Calculate age of the guitar"""
+        return CURRENT_YEAR - self.year
 
-    # def is_vintage(self):
-    #     """Determine if the guitar is vintage or not"""
-    #     return self.get_age() >= VINTAGE_MINIMUM_YEAR
+    def is_vintage(self):
+        """Determine if the guitar is vintage or not"""
+        return self.get_age() >= VINTAGE_MINIMUM_YEAR
