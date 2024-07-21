@@ -14,26 +14,24 @@ def main():
         guitars.append(guitar)
     in_file.close()
 
-    for guitar in guitars:
-        print(guitar)
-    print()
-    guitars.sort()
-    for guitar in guitars:
-        print(guitar)
-
-    name = input("Name: ")
-    while name != "":
-        year = int(input("Year: "))
-        cost = float(input("Cost: $"))
-        new_guitar = Guitar(name, year, cost)
-        guitars.append(new_guitar)
-        out_file = open(FILE_NAME, 'a')
-        new_guitar = f"{name},{year},{cost}"
-        print(new_guitar, file=out_file)
-        out_file.close()
-        name = input("Name: ")
     # for guitar in guitars:
     #     print(guitar)
+    # print()
+    # guitars.sort()
+    # for guitar in guitars:
+    #     print(guitar)
+
+    # name = input("Name: ")
+    # while name != "":
+    #     year = int(input("Year: "))
+    #     cost = float(input("Cost: $"))
+    #     new_guitar = Guitar(name, year, cost)
+    #     guitars.append(new_guitar)
+    #     out_file = open(FILE_NAME, 'a')
+    #     new_guitar = f"{name},{year},{cost}"
+    #     print(new_guitar, file=out_file)
+    #     out_file.close()
+    #     name = input("Name: ")
 
 
 main()
