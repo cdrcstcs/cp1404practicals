@@ -1,7 +1,12 @@
 """
 CP1404/CP5632 Practical
 File and class example - opens/reads a file, stores in objects of custom class
-(contains multiple versions for demonstration: using csv and namedtuple)
+(
+This file demonstrates how to open and read a file, 
+then store its data in objects of a custom class. 
+It provides two versions: 
+one using the CSV module directly and another using named tuples for structured data handling.
+)
 """
 
 import csv
