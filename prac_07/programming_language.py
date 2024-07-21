@@ -25,20 +25,20 @@ class ProgrammingLanguage:
         return self.typing == "Dynamic"
 
 
-# def run_tests():
-#     """Run simple tests/demos on ProgrammingLanguage class."""
-#     ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995, False)
-#     python = ProgrammingLanguage("Python", "Dynamic", True, 1991, False)
-#     visual_basic = ProgrammingLanguage("Visual Basic", "Static", False, 1991, False)
+def run_tests():
+    """Run simple tests/demos on ProgrammingLanguage class."""
+    ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995, False)
+    python = ProgrammingLanguage("Python", "Dynamic", True, 1991, False)
+    visual_basic = ProgrammingLanguage("Visual Basic", "Static", False, 1991, False)
 
-#     languages = [ruby, python, visual_basic]
-#     print(python)
+    languages = [ruby, python, visual_basic]
+    print(python)
 
-#     print("The dynamically typed languages are:")
-#     for language in languages:
-#         if language.is_dynamic():
-#             print(language.name)
+    print("The dynamically typed languages are:")
+    for language in languages:
+        if language.is_dynamic():
+            print(language.name)
 
 
-# if __name__ == "__main__":
-#     run_tests()
+if __name__ == "__main__":
+    run_tests()
