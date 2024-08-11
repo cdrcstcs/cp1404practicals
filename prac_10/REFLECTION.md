@@ -15,4 +15,3 @@ If I had the opportunity to oversee the practical tasks of the subject, I would 
 
 # Code Review Link
 - https://github.com/cdrcstcs/cp1404practicals/pull/5
-- 
